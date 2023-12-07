@@ -1,0 +1,11 @@
+.app {
+  max-width: 100%;
+  height: auto;
+  min-height: 700px;
+  border: 2px;
+  border-color:black;
+  border-style: groove;
+  margin: auto;
+}
+
+

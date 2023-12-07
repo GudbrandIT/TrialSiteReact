@@ -1,0 +1,57 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Sarabun:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Sarabun:wght@300&family=Tektur:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,500&family=Oswald:wght@500&family=Playfair+Display:wght@500&family=Sarabun:wght@300&family=Tektur:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  background: linear-gradient(to bottom right, #c7cac9,  rgb(3, 187, 3));
+}
+
+.header {
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  position: top;
+  color: rgb(20, 67, 107);
+}
+
+.slogan {
+font-family: 'Exo 2', sans-serif;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.navbar {
+  max-width: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  font-family: 'Tektur', sans-serif;
+  font-size: 30px;
+}
+.hookusestate {
+  font-size: large;
+  background-color:darkslateblue;
+  height: fit-content;
+  width: fit-content;
+  border: 3px solid #0c9e6d;
+}
+
+.footer {
+  position: relative;
+  bottom: 10px;
+}
