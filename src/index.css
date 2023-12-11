@@ -9,10 +9,11 @@
 
 .background {
   max-width: 100%;
-  height: auto;
-  display: flex;
+  min-height: 768px;
+  position: relative;
   overflow: hidden;
-  background: linear-gradient(to bottom right, #c7cac9,  rgb(3, 187, 3));
+  background: linear-gradient(to bottom right, rgb(224, 222, 222), #cccfce,  rgb(3, 187, 3));
+  border: 2px darkred;
 }
 
 .header {
@@ -20,10 +21,13 @@
   font-family: 'Oswald', sans-serif;
   position: top;
   color: rgb(20, 67, 107);
+  margin: 3px;
 }
 
 .slogan {
 font-family: 'Exo 2', sans-serif;
+font-size: 25px;
+margin: 3px;
 }
 
 .headerContainer {
@@ -31,9 +35,14 @@ font-family: 'Exo 2', sans-serif;
   flex-direction: row;
   justify-content: flex-start;
   align-items: baseline;
+  padding: 3px;
+  border: tomato 2px;
+  border-style: ridge;
+  position: relative;
 }
 
 .navbar {
+  margin: 10px;
   max-width: 50%;
   position: relative;
   display: flex;
@@ -42,16 +51,29 @@ font-family: 'Exo 2', sans-serif;
   list-style-type: none;
   font-family: 'Tektur', sans-serif;
   font-size: 30px;
+  background-color: #d9dad9;
+  border-radius: 5px;
 }
+
+#nbButton1,
+#nbButton2,
+#nbButton3 {
+  padding: 1px 3px;
+  border: black 2px;
+  border-style: groove;
+  border-radius: 5px;
+}
+
 .hookusestate {
   font-size: large;
   background-color:darkslateblue;
   height: fit-content;
   width: fit-content;
   border: 3px solid #0c9e6d;
+  margin: 5px;
 }
 
 .footer {
-  position: relative;
-  bottom: 10px;
+  position: absolute;
+  bottom: 3px;
 }

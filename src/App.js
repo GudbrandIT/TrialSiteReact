@@ -1,6 +1,5 @@
 import './App.css';
 import React from 'react';
-import { Background } from './Background';
 import { HookUseState } from './HookUseState';
 import { Header } from './Header';
 import { Slogan } from './Header';
@@ -12,7 +11,6 @@ function App() {
   return (
     <div className="app">
       <>
-      < Background />
       <div className='headerContainer'>
         < Header />
         < Slogan />
