@@ -1,13 +1,13 @@
 export function Main (content) {
-    if (handleclick) {
-        content = 
+   
+    function clickButton1() {
+        content = <div>Информация о продукции</div>
     }
-    if (handleckick)
-    {
-        content =
+    function clickButton2() {
+        content = <div>Информация о сервисе</div>
     }
-    if (handleckick) {
-        content =
+    function clickButton3() {
+        content = <div>Информация о компании</div>
     }
     return (
         <div className="main">

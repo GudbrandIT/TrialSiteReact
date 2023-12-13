@@ -6,6 +6,6 @@ export function Header() {
 
 export function Slogan() {
     return (
-        <span className="slogan"> Ваш дом - Ваша крепость!</span>
+        <span className="slogan">Ваш дом - Ваша крепость!</span>
     )
 }

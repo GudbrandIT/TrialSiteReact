@@ -31,12 +31,13 @@ margin: 3px;
 }
 
 .headerContainer {
+  max-width: 70%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: baseline;
   padding: 3px;
-  border: tomato 2px;
+  border: rgb(5, 119, 139) 5px;
   border-style: ridge;
   position: relative;
 }
@@ -62,6 +63,10 @@ margin: 3px;
   border: black 2px;
   border-style: groove;
   border-radius: 5px;
+}
+
+.main {
+  border:rgb(20, 67, 107), 3px, ridge;
 }
 
 .hookusestate {
